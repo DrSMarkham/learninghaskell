@@ -1,4 +1,4 @@
-data Event = Event String String String String deriving (Show)  
+data Event = Event String String String deriving (Show)  
 
 desiredOutcome :: Event -> String  
 desiredOutcome (Event desiredoutcome _ _) = desiredoutcome  
